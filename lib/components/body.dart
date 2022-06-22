@@ -12,13 +12,15 @@ class Body extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            'Baink Capital'.toUpperCase(),
+            'Baink \nCapital'.toUpperCase(),
             style: Theme.of(context).textTheme.headline1?.copyWith(
-                color: Color(0xff03989E), fontWeight: FontWeight.bold),
+                  color: const Color(0xfff99859),
+                  fontWeight: FontWeight.bold,
+                ),
           ),
           Text(
             'Live dreams bigger'.toUpperCase(),
-            style: Theme.of(context).textTheme.headline2?.copyWith(
+            style: Theme.of(context).textTheme.headline3?.copyWith(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
                 ),
@@ -30,38 +32,38 @@ class Body extends StatelessWidget {
               ),
               padding: const EdgeInsets.all(15),
               decoration: BoxDecoration(
-                color: Color(0xff095c60),
+                color: const Color(0xff095c60),
                 borderRadius: BorderRadius.circular(34),
               ),
               child: Row(
                 children: [
                   Container(
-                    padding: EdgeInsets.all(10),
+                    padding: const EdgeInsets.all(10),
                     height: 30,
                     width: 30,
-                    decoration: BoxDecoration(
+                    decoration: const BoxDecoration(
                       color: Color(0xff03989E),
                       shape: BoxShape.circle,
                     ),
                     child: Container(
-                      decoration: BoxDecoration(
+                      decoration: const BoxDecoration(
                         color: Color(0xff095c60),
                         shape: BoxShape.circle,
                       ),
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 15,
                   ),
                   Text(
                     "Join Us".toUpperCase(),
-                    style: TextStyle(
+                    style: const TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
                       fontSize: 19,
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 15,
                   ),
                 ],

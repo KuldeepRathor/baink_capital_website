@@ -1,3 +1,4 @@
+import 'package:baink_capital_website/screens/features.dart';
 import 'package:baink_capital_website/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomeScreen(title: 'Flutter Demo Home Page'),
+      home: FeaturesPage(),
     );
   }
 }

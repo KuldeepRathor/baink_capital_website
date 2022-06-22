@@ -24,15 +24,15 @@ class Custom_AppBar extends StatelessWidget {
       ),
       child: Row(
         children: [
-          Image.asset(
-            'assets/images/image2.png',
-            height: 25,
-            alignment: Alignment.topCenter,
-            scale: 1,
-          ),
-          const SizedBox(
-            width: 5,
-          ),
+          // Image.asset(
+          //   'assets/images/image2.png',
+          //   height: 25,
+          //   alignment: Alignment.topCenter,
+          //   scale: 1,
+          // ),
+          // const SizedBox(
+          //   width: 5,
+          // ),
           // Text(
           //   'Baink Capital'.toUpperCase(),
           //   style: const TextStyle(
